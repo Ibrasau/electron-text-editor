@@ -1,0 +1,8 @@
+{
+  "name": "electron-photon-text-editor",
+  "version": "1.0.0",
+  "description": "A simple text editor application written using electron and photon ui libraries.",
+  "main": "main.js",
+  "author": "Viacheslav Vasyliev",
+  "license": "ISC"
+}

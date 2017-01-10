@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Laboratorium 6</title>
+	<link rel="stylesheet" href="./css/photon.min.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body class="window">
+	<header class="toolbar toolbar-header">
+		<section class="toolbar-actions">
+			<button class="btn btn-default create-file">
+				<span class="icon icon-plus-circled icon-text"></span>
+				Create a file
+			</button>
+			<button class="btn btn-default open-file">
+				<span class="icon icon-folder icon-text"></span>
+				Open a file
+			</button>
+		</section>
+	</header>
+	<section class="form-control file-content-wrapper">
+		<label class="title">File content<span class="file-name"></span>:</label>
+		<textarea class="form-control file-content"></textarea>
+	</section>
+	<footer class="toolbar toolbar-footer">
+		<div class="toolbar-actions">
+			<button class="btn btn-default reset-opened">
+				Cancel
+			</button>
+
+			<button class="btn btn-primary pull-right save-file">
+				Save
+			</button>
+		</div>
+	</footer>
+
+<script type="text/javascript" src="./client.js"></script>
+</body>
+</html>
